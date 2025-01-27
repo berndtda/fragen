@@ -25,3 +25,11 @@ Branches dürfen kein Mittel für eine logische Strukturierung sein. Branches si
 Daraus folgt direkt das jedes "permanente" Objekt ein eigenes Repo/Verzeichnis braucht.
 
 
+HELM: Wenn wir Helm CHarts aus einem Repo oder von Dritten beziehen können wir die Values in diesem Chart nicht direkt referenzieren. Folgende Lösungen stehen zur Auswahl:
+
+  1. Umbrella CHart
+  2. Values als "Textelement" im CHart
+  3. MultiSourceApplication
+
+
+Wo würden wir App of Apps einsetzen wollen und wollen wir das überhaupt?
